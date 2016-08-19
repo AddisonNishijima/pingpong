@@ -24,8 +24,8 @@ _Behavior 5, the program displays all numbers in the range from the inputted num
 ## Setup/Installation Requirements
 
 * _Open terminal_
-* _Enter "git clone " into terminal_
-* _Or go to  and follow the instructions listed on the page_
+* _Enter "git clone https://github.com/AddisonNishijima/pingpong.git" into terminal_
+* _Or go to https://github.com/AddisonNishijima/pingpong and follow the instructions listed on the page_
 
 _All files required to run this project are included_
 
