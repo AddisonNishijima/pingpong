@@ -4,6 +4,8 @@ $(document).ready(function () {
         var beginningNumber = parseInt($("#number").val());
         var endingNumber = parseInt($("#ending").val());
 
+//User Logic End
+
         if (!isNaN(beginningNumber) && !isNaN(endingNumber)) {
             var i;
             for (i = beginningNumber; i <= endingNumber; i++) {
@@ -28,3 +30,4 @@ $(document).ready(function () {
     });
 
 });
+//Business Logic End
