@@ -3,7 +3,7 @@ body {
 }
 
 .jumbotron {
-  font-family: fantasy;
+  font-family: sans-serif;;
   text-align: center;
   background-color: #F5DFB3;
 }
@@ -35,9 +35,10 @@ body {
 input {
   font-size: 14px;
   margin-top: 20px;
-  margin-left: 50px;
-  margin-right: 20px;
-  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #C0C0C0;
 }
 
 #output {
