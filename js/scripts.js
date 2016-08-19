@@ -11,13 +11,13 @@ $(document).ready(function () {
             for (i = beginningNumber; i <= endingNumber; i++) {
 
                 if (i % 3 === 0 && i % 5 === 0) {
-                    $("#output").append("<span class='pingpong'>pingpong,</span>");
+                    $("#output").append("<span class='pingpong'>pingpong,</span><br>");
                 } else if (i % 3 === 0) {
-                    $("#output").append("<span class='ping'>ping,</span>");
+                    $("#output").append("<span class='ping'>ping,</span><br>");
                 } else if (i % 5 === 0) {
-                    $("#output").append("<span class='pong'>pong,</span>");
+                    $("#output").append("<span class='pong'>pong,</span><br>");
                 } else {
-                    $("#output").append("<span>" + i + ",</span>");
+                    $("#output").append("<br><span>" + i + ",</span><br>");
                 }
             }
             $("#output span").show(400);
@@ -27,14 +27,6 @@ $(document).ready(function () {
         }
         // prevent form submission
         return false;
-    });
-
-    // empty the output & error divs
-    $('input').on('focus', function () {
-        $("#output span").hide(function () {
-            $("#output").empty();
-        });
-        $("#error").empty();
     });
 
 }); // end ready

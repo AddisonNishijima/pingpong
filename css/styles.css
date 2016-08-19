@@ -11,6 +11,10 @@ input {
   margin-right: 20px;
 }
 
+#output {
+  text-align: center;
+}
+
 .pingpong {
   color: purple;
   font-family: fantasy;
