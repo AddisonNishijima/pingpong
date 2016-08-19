@@ -66,3 +66,9 @@ input {
   font-family: cursive;
   font-style: italic;
 }
+
+#error {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
