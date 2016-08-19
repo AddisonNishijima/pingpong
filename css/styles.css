@@ -1,3 +1,7 @@
+body {
+  background-color: #E6E6E6;
+}
+
 .jumbotron {
   font-family: fantasy;
   text-align: center;
@@ -6,6 +10,7 @@
 
 #about {
   float: left;
+  height: 1000px;
   width: 20%;
   background-color: #8FBC8E;
 }
