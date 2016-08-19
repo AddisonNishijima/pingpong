@@ -10,26 +10,30 @@ body {
 
 #about {
   float: left;
-  height: 1000px;
+  height:3000px;
   width: 20%;
   background-color: #8FBC8E;
   padding: 20px;
   color: white;
 }
 
-#about h3{
+#about h3 {
   color: black;
   font-family: sans-serif;
   font-weight: bold;
 }
 
-#about h4{
+#about h4 {
   color: #F5D5B3;
   font-family: sans-serif;
   font-weight: bold;
 }
 #container {
   margin-left: 500px;
+}
+
+#container h2,h3 {
+  font-weight: bold;
 }
 
 input {

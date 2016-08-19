@@ -18,7 +18,7 @@ $(document).ready(function () {
                     $("#output").append("<br><span>" + i + ",</span><br>");
                 }
             }
-            $("#output span").show(400);
+            $("#output span").show();
         } else {
 
             $("#error").append("<p class='error'>Please enter a valid number in both boxes</p>");
@@ -27,4 +27,4 @@ $(document).ready(function () {
         return false;
     });
 
-}); 
+});
