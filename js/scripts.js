@@ -4,9 +4,7 @@ $(document).ready(function () {
         var beginningNumber = parseInt($("#number").val());
         var endingNumber = parseInt($("#ending").val());
 
-        // check that the input values are numbers
         if (!isNaN(beginningNumber) && !isNaN(endingNumber)) {
-            // loop through numbers
             var i;
             for (i = beginningNumber; i <= endingNumber; i++) {
 
@@ -22,11 +20,11 @@ $(document).ready(function () {
             }
             $("#output span").show(400);
         } else {
-            // if the inputs are not valid numbers
+
             $("#error").append("<p class='error'>Please enter a valid number in both boxes</p>");
         }
-        // prevent form submission
+
         return false;
     });
 
-}); // end ready
+}); 
