@@ -1,26 +1,26 @@
 $(document).ready(function () {
 
     $("#pingpong").submit(function (event) {
-        var start = parseInt($("#number").val());
-        var ending = parseInt($("#ending").val());
+        var beginningNumber = parseInt($("#number").val());
+        var endingNumber = parseInt($("#ending").val());
 
         // check that the input values are numbers
-        if (!isNaN(start) && !isNaN(ending)) {
+        if (!isNaN(beginningNumber) && !isNaN(endingNumber)) {
             // loop through numbers
             var i;
-            for (i = start; i <= ending; i++) {
+            for (i = beginningNumber; i <= endingNumber; i++) {
 
                 if (i % 3 === 0 && i % 5 === 0) {
-                    $("#output").append("<span class='pingpong'>pingpong</span>");
+                    $("#output").append("<span class='pingpong'>pingpong,</span>");
                 } else if (i % 3 === 0) {
-                    $("#output").append("<span class='ping'>ping</span>");
+                    $("#output").append("<span class='ping'>ping,</span>");
                 } else if (i % 5 === 0) {
-                    $("#output").append("<span class='pong'>pong</span>");
+                    $("#output").append("<span class='pong'>pong,</span>");
                 } else {
-                    $("#output").append("<span>" + i + "</span>");
+                    $("#output").append("<span>" + i + ",</span>");
                 }
             }
-            $("#output span").fadeIn(400);
+            $("#output span").show(400);
         } else {
             // if the inputs are not valid numbers
             $("#error").append("<p class='error'>Please enter a valid number in both boxes</p>");
@@ -31,7 +31,7 @@ $(document).ready(function () {
 
     // empty the output & error divs
     $('input').on('focus', function () {
-        $("#output span").fadeOut(400, function () {
+        $("#output span").hide(function () {
             $("#output").empty();
         });
         $("#error").empty();
