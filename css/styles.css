@@ -10,3 +10,21 @@ input {
   font-size: 14px;
   margin-right: 20px;
 }
+
+.pingpong {
+  color: purple;
+  font-family: fantasy;
+  font-style: oblique;
+}
+
+.ping {
+  color: red;
+  font-family: serif;
+  font-weight: bold;
+}
+
+.pong {
+  color: blue;
+  font-family: cursive;
+  font-style: italic;
+}
