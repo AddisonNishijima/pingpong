@@ -2,6 +2,11 @@
   font-family: fantasy;
   text-align: center;
 }
+
+#about {
+  float: left;
+  width: 20%;
+}
 #container {
   margin-left: 500px;
 }
@@ -9,7 +14,8 @@
 input {
   font-size: 14px;
   margin-top: 20px;
-  margin-right: 30px;
+  margin-left: 50px;
+  margin-right: 20px;
   margin-bottom: 20px;
 }
 
