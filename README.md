@@ -1,6 +1,6 @@
 # _Pingpong Test_
 
-#### _This is a project that finds if a user inputted number is divisible by three, five, or both. It also counts from that number until 100, the maximum number. ,8/19/2016 _
+#### _This is a project that finds if a user inputted number is divisible by three, five, or both. It also counts from that number until 100, the maximum number. , 8/19/2016 _
 
 #### By _**Addison Nishijima**_
 
@@ -27,7 +27,8 @@ _All files required to run this project are included_
 
 ## Known Bugs
 
-_There are no known issues or bugs_
+_The about section will not extend to accommodate extremely long outputs_
+_The program cannot process negative numbers_
 
 ## Support and contact details
 
