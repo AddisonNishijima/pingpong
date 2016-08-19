@@ -6,9 +6,13 @@
 
 ## Description
 _Behavior 1, the user inputs a number and the program counts from that number to 100_
+
 _Behavior 2, the program finds numbers divisible by three in the range of the inputted number to 100 and labels them "ping"_
+
 _Behavior 3, the program finds numbers divisible by five in the range of the inputted number to 100 and labels them "pong"_
+
 _Behavior 4, the program finds numbers divisible by both three and five in the range of the inputted number to 100 and labels them "pingpong"_
+
 _Behavior 5, the program displays all numbers in the range from the inputted number to 100 with included labels of ping, pong, and pingpong as well as numbers not divisible by 3, 5, or either._
 
 | Behavior  | Input  | Output                  |
